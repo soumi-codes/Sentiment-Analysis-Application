@@ -12,7 +12,7 @@ The python libraries used in the project are pandas, re, nltk and Scikit-learn. 
 A word cloud then is created to get some insight about the processed data and represent it in a way such that the size of each word will indicate its frequency. The bag of words model is created that converts the text data into vectors and describes the total occurrence of words within a document. Bigram parameter is used to give importance to the combination of words. 
 
 #### Classfication
-The corpus is split into training and testing set in a 75:25 ratio. A Support Vector Machine classifier model is created, trained and evaluated based on the accuracy and predictions. The developed model has an accuracy of about 80% and successfully detects the sentiments of the textual reviews. 
+The corpus is split into training and testing sets in a 75:25 ratio. A Support Vector Machine classifier model is created, trained and evaluated based on the accuracy and predictions. The developed model has an accuracy of about 80% and successfully detects the sentiments of the textual reviews. 
 
 #### Custom Input
 The model has been tested with a few custom reviews taken from user and it has detected the sentiments correctly in almost all the cases.
