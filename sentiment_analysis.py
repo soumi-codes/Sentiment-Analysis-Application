@@ -81,10 +81,3 @@ def sentiment_predictor(s):
     pred = SVC_classifier.predict(ts)
     expression_check(pred)
 
-while(True):
-    r = input("Enter review: ");
-    s = [r]
-    sentiment_predictor(s)
-    c = input("Press c to continue or q to exit: ");
-    if c == 'q':
-        break
